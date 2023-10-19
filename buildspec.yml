@@ -4,6 +4,7 @@ phases:
     runtime-versions:
       python: 3.11
     commands:
+      - mkdir lib
       - echo "Installing dependencies..."
       - pip install -t ./lib panda
   build:
